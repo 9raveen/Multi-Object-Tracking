@@ -205,3 +205,28 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# =========================
+# Project-specific ignores
+# =========================
+
+# Data folders (VERY IMPORTANT)
+data/raw/
+data/processed/
+
+# Large video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# YOLO / model weights
+*.pt
+*.pth
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
