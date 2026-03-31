@@ -1,4 +1,4 @@
-# Multi-Object Detection and Persistent ID Tracking in Sports Footage
+# Multi-Object Detection and Persistent ID Tracking in Sports Footage (YOLOV8m + DeepSort)
 
 ## 📌 Overview
 
