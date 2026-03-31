@@ -1,4 +1,4 @@
-# Multi-Object Detection and Persistent ID Tracking in Sports Footage
+<img width="1895" height="1038" alt="before_crowd" src="https://github.com/user-attachments/assets/41f581b1-41b0-4fc1-b785-98943ac652a5" /># Multi-Object Detection and Persistent ID Tracking in Sports Footage
 
 ## 📌 Overview
 
@@ -133,6 +133,60 @@ outputs/output_video.mp4
   - Team labels
   - Trajectory lines
 
+
+## 📸 Results & Improvements
+
+### 🔴 1. Crowd Misclassification Fix
+
+**Before (Without Filtering):**
+<img width="1895" height="1038" alt="before_crowd" src="https://github.com/user-attachments/assets/84307d73-94f2-4e25-b96e-c279b770921c" />
+
+<img width="1908" height="1033" alt="before_crowd2" src="https://github.com/user-attachments/assets/9d4ae560-914d-404e-b0d7-672713586e95" />
+
+* Spectators incorrectly detected as players
+* Wrong team assignments
+
+**After (With Spatial + Size Filtering):**
+<img width="1818" height="999" alt="after_crowd" src="https://github.com/user-attachments/assets/dcd58c3d-918b-439d-8ab4-e41a988fe17b" />
+
+<img width="1817" height="1014" alt="after_crowd2" src="https://github.com/user-attachments/assets/049f248f-c7ac-470d-b4fe-06d620300e82" />
+
+* Crowd removed successfully
+* Only field players tracked
+
+---
+
+### 🔵 2. Team Classification Improvement
+
+**Before (Basic RGB / No HSV):**
+<img width="1826" height="830" alt="before_classification" src="https://github.com/user-attachments/assets/00bc1e26-40f4-4699-8ba1-aa2339fb221b" />
+<img width="1576" height="750" alt="before_players_team" src="https://github.com/user-attachments/assets/a7f72c6a-1a6d-41a3-9447-706e64dcd988" />
+
+* Incorrect team labels
+* Many players classified as "Other"
+
+**After (HSV + KMeans + Filtering):**
+<img width="1791" height="986" alt="after_classification" src="https://github.com/user-attachments/assets/412b9be5-d585-4a31-bbb7-3947b01838b4" />
+
+* Accurate team classification
+* Stable labels across frames
+
+---
+
+### 🟢 3. Tracking & Trajectory Visualization
+
+**Final Output:**
+
+<img width="1791" height="986" alt="after_classification" src="https://github.com/user-attachments/assets/42fc5347-5c44-481c-a52c-74b7e35946fe" />
+
+* Persistent IDs
+* Smooth trajectory lines
+* Stable tracking across frames
+
+/
+
+---
+
 ---
 
 ## 🎥 Demo
@@ -147,8 +201,3 @@ https://youtu.be/X0we8220k74?si=ArpkK71w5bcPfjbj
 
 ---
 
-## 📸 Sample Results
-
-(Add screenshots here)
-
----
