@@ -1,4 +1,4 @@
-<img width="1895" height="1038" alt="before_crowd" src="https://github.com/user-attachments/assets/41f581b1-41b0-4fc1-b785-98943ac652a5" /># Multi-Object Detection and Persistent ID Tracking in Sports Footage
+# Multi-Object Detection and Persistent ID Tracking in Sports Footage
 
 ## 📌 Overview
 
