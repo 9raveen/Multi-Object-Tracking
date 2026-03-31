@@ -295,7 +295,7 @@ Each frame in the output video contains:
 
 ## 🎥 Demo
 
-> 📹 [Watch Demo Video](<[your-demo-link-here](https://drive.google.com/drive/folders/1jxCMPlKkhEzqBOiDN2wj_1Kppb8Yx6WP?usp=sharing)>) — 3–5 min walkthrough of pipeline, code, and output
+> 📹 [Watch Demo Video](<(https://drive.google.com/drive/folders/1jxCMPlKkhEzqBOiDN2wj_1Kppb8Yx6WP?usp=sharing)>) — 3–5 min walkthrough of pipeline, code, and output
 
 ---
 
