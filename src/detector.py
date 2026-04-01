@@ -4,7 +4,7 @@ from ultralytics import YOLO
 class YOLODetector:
     def __init__(self, model_path="yolov8m.pt", conf_threshold=0.5):
         self.model = YOLO(model_path)
-        self.model.to("cuda")  # GPU acceleration
+        ''' self.model.to("cuda")  # GPU acceleration '''
         self.conf_threshold = conf_threshold
 
     def detect(self, frame):
