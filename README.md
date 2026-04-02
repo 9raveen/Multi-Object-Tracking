@@ -3,7 +3,7 @@
 ### YOLOv8m + DeepSORT | Football | FA Cup 2024
 
 ---
-
+Project Live Link : https://huggingface.co/spaces/9raveen/Sports-player-tracker
 ## 📌 Overview
 
 This project implements a complete computer vision pipeline to detect, track, and analyze multiple objects (players) in sports footage. The system assigns persistent IDs, classifies players into teams based on jersey color, and handles real-world challenges such as occlusion, camera motion, scene changes, and crowd interference.
